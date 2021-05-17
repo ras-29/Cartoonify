@@ -3,8 +3,8 @@ import cv2
 def functioncall(x):
     print(x)
 
-img = cv2.imread('C:/Users/ESHWAR/opencv/Computer-Vision-with-Python/bricks.jpg')
-img_gray = cv2.imread('C:/Users/ESHWAR/opencv/Computer-Vision-with-Python/bricks.jpg',0)
+img = cv2.imread('.../bricks.jpg')
+img_gray = cv2.imread('.../bricks.jpg',0)
 
 cv2.namedWindow('cartoon')
 cv2.createTrackbar('C-edge','cartoon',-20,20,functioncall)
